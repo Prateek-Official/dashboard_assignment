@@ -7,7 +7,7 @@ const Body = () => {
   const { isLight } = useContext(ThemeContext);
   
   return (
-    <div className={"flex px-[7.5px] py-[15px] " + (isLight ? "bg-[#f7f8fa]" : "bg-[#010d19]")}>
+    <div className={"flex px-[7.5px] py-[16px] " + (isLight ? "bg-[#f7f8fa]" : "bg-[#010d19]")}>
       <User_Details />
       <Main_Details />
     </div>
