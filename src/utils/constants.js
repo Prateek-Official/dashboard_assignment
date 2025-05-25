@@ -217,3 +217,153 @@ export const recentCustomerList = [
     delivery: "05/01/2025",
   },
 ];
+
+export const recentActivityMessages = [
+  {
+    id: Math.random(),
+    sender: "Shaktimaan",
+    text: "Sent Message to",
+    receiver: "Gangadhar",
+    timeStamp: "5/25/2025, 08:01:13 pm",
+    replies: [
+      {
+        id: Math.random(),
+        sender: "Gangadhar",
+        text: "Replay your message",
+        receiver: "Hello",
+        timeStamp: "5/25/2025, 12:43:13 pm",
+        replies: {},
+      },
+    ],
+  },
+
+  {
+    id: Math.random(),
+    sender: "Shakitmaan",
+    text: "Accept Order from",
+    receiver: "Flipkart",
+    timeStamp: "5/25/2025, 06:43:13 pm",
+    replies: [
+      {
+        id: Math.random(),
+        sender: "White Walker",
+        text: "Replay your message",
+        receiver: "Flipkart",
+        timeStamp: "5/25/2025, 10:43:13 pm",
+        replies: {},
+      },
+      {
+        id: Math.random(),
+        sender: "White Walker",
+        text: "Replay your message",
+        receiver: "Flipkart",
+        timeStamp: "5/25/2025, 10:43:13 pm",
+        replies: {},
+      },
+    ],
+  },
+
+  {
+    id: Math.random(),
+    sender: "World War Hulk",
+    text: "Accept Order from",
+    receiver: "Amazon",
+    timeStamp: "5/24/2025, 12:43:13 pm",
+    replies: [],
+  },
+
+  {
+    id: Math.random(),
+    sender: "Christian Wood",
+    text: "Accept Order from",
+    receiver: "Amazon",
+    timeStamp: "5/22/2025, 10:43:13 pm",
+    replies: [],
+  },
+];
+
+export const monthsByIndex = {
+  1: "JAN",
+  2: "FEB",
+  3: "MAR",
+  4: "APR",
+  5: "MAY",
+  6: "JUN",
+  7: "JUL",
+  8: "AUG",
+  9: "SEP",
+  10: "OCT",
+  11: "NOV",
+  12: "DEC",
+};
+
+export const recentActivityMessages2 = [
+  {
+    id: Math.random(),
+    sender: "Shaktimaan",
+    text: "Sent Message to",
+    receiver: "Gangadhar",
+    day: "today",
+    timeStamp: "1 min ago",
+    replies: [
+      {
+        id: Math.random(),
+        sender: "Gangadhar",
+        text: "Replay your message",
+        receiver: "Hello",
+        day: "today",
+        timeStamp: "1 min ago",
+        replies: {},
+      },
+    ],
+  },
+
+  {
+    id: Math.random(),
+    sender: "Shakitmaan",
+    text: "Accept Order from",
+    receiver: "Flipkart",
+    day: "today",
+    timeStamp: "1 min ago",
+    replies: [
+      {
+        id: Math.random(),
+        sender: "White Walker",
+        text: "Replay your message",
+        receiver: "Flipkart",
+        day: "today",
+        timeStamp: "1 min ago",
+        replies: {},
+      },
+      {
+        id: Math.random(),
+        sender: "White Walker",
+        text: "Replay your message",
+        receiver: "Flipkart",
+        day: "today",
+        timeStamp: "1 min ago",
+        replies: {},
+      },
+    ],
+  },
+
+  {
+    id: Math.random(),
+    sender: "World War Hulk",
+    text: "Accept Order from",
+    receiver: "Amazon",
+    day: "yesterday",
+    timeStamp: "12:30PM",
+    replies: [],
+  },
+
+  {
+    id: Math.random(),
+    sender: "Christian Wood",
+    text: "Accept Order from",
+    receiver: "Amazon",
+    day: "24 MAY 2025",
+    timeStamp: "11:20AM",
+    replies: [],
+  },
+];

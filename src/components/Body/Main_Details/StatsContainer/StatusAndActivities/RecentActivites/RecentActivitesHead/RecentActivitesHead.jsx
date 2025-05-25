@@ -7,7 +7,7 @@ const RecentActivitesHead = () => {
   return (
     <div className="flex items-center justify-between px-[15px] py-3.5 border-b-2 border-[#e3e6e7] ">
       <h2 className="text-[20px] font-semibold">
-        Recent Orders
+        Recent Activities
       </h2>
         <RevenueTabs revenueTabs={recentActivitiesTab} />
     </div>

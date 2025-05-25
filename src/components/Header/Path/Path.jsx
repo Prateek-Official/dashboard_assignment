@@ -7,7 +7,7 @@ const Path = () => {
   return (
     <div
       className={
-        "flex min-h-[65px] px-[20px] border-b-2 border-[#eeeff0] " +
+        "flex min-h-[65px] px-[20px] border-b-2 " +
         (isLight
           ? "bg-white border-[#eeeff0]"
           : "bg-[#152330] border-[#192939] text-white")

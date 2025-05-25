@@ -55,7 +55,7 @@ const Head = () => {
           </button>
         ) : (
           <button
-            className="h-[40px] w-[40px] text-[30px] flex justify-center items-center cursor-pointer"
+            className="h-[40px] w-[40px] text-[24px] flex justify-center items-center cursor-pointer"
             onClick={toggleTheme}
           >
             <i class="fa-regular fa-sun text-white"></i>
