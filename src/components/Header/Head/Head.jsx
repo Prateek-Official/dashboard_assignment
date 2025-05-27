@@ -1,4 +1,3 @@
-import Logo from "../../../assets/quotient_logo.avif";
 import { FaChevronDown, FaChevronUp, FaBell } from "react-icons/fa";
 import { RiMoonLine } from "react-icons/ri";
 import { ThemeContext } from "../../ToggleTheme";
@@ -16,10 +15,6 @@ const Head = () => {
           : "bg-[#152330] border-[#192939]")
       }
     >
-      {/* <div className="hidden border flex-1">
-        <i className="fa-solid fa-bars"></i>
-      </div> */}
-
       <h1
         className={
           "flex-1 flex items-center px-5 cursor-pointer text-[36px] font-bold italic " +
@@ -33,14 +28,21 @@ const Head = () => {
         <div
           className={
             "w-full border flex items-center shadow-md p-3 rounded-lg " +
-            (isLight ? "text-black border-[#eeeff0] " : "text-white border-[#010d19]")
+            (isLight
+              ? "text-black border-[#eeeff0] "
+              : "text-white border-[#010d19]")
           }
         >
           <i className="fa-solid fa-magnifying-glass p-2"></i>
           <input
             type="text"
             placeholder="Search"
-            className={"flex-1 border-none outline-none text-inherit"}
+            className={
+              "flex-1 border-none outline-none text-inherit" +
+              (isLight
+                ? "bg-[#eeeff0] border-[#e3e6e7] text-black"
+                : "bg-[#010d19] border-[#192939] text-white")
+            }
           />
         </div>
       </div>
@@ -62,7 +64,14 @@ const Head = () => {
           </button>
         )}
 
-        <button className="mx-3 h-[40px] w-[40px] text-[20px] border border-gray-300 rounded-lg shadow-xl shadow-gray-200 flex justify-center items-center cursor-pointer">
+        <button
+          className={
+            "mx-3 h-[40px] w-[40px] text-[20px] border rounded-lg shadow-xl flex justify-center items-center cursor-pointer " +
+            (isLight
+              ? "bg-[#eeeff0] border-[#e3e6e7] text-black"
+              : "bg-[#010d19] border-[#192939] text-white")
+          }
+        >
           <FaBell />
         </button>
 

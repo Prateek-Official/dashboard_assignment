@@ -23,7 +23,6 @@ const RecentActivityMessage = ({
     <>
       {msg.map((m) => {
         const { id, sender, text, receiver, timeStamp, replies } = m;
-        console.log(replies);
         return (
           <div className="flex gap-1 mt-2.5" key={id}>
             <div className="flex ">

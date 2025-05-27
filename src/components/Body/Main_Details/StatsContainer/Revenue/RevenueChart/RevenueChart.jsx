@@ -1,4 +1,4 @@
-import React from "react";
+import { useContext } from "react";
 import { Bar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -9,7 +9,8 @@ import {
   Legend,
   Colors,
 } from "chart.js";
-import ChartDataLabels from "chartjs-plugin-datalabels";
+// import ChartDataLabels from "chartjs-plugin-datalabels";
+import { ThemeContext } from "../../../../../ToggleTheme";
 
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
@@ -51,7 +52,7 @@ const barOptions = {
     datalabels: {
       anchor: "end",
       align: "end",
-      color: 'black',
+      color: "black",
       formatter: (value) => "$" + `${value}`,
     },
   },

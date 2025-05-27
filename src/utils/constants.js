@@ -82,37 +82,37 @@ export const orderData = [
     icon: "square",
     heading: "All",
     data: "50",
-    marginBot: "true",
+    marginBot: true,
   },
   {
     icon: "watch",
     heading: "Pending",
     data: "50",
-    marginBot: "true",
+    marginBot: true,
   },
   {
     icon: "tick",
     heading: "Delivered",
     data: "123",
-    marginBot: "false",
+    marginBot: false,
   },
   {
     icon: "party",
     heading: "New",
     data: "50",
-    marginBot: "true",
+    marginBot: true,
   },
   {
     icon: "truck",
     heading: "Dispatched",
     data: "50",
-    marginBot: "true",
+    marginBot: true,
   },
   {
     icon: "cancel",
     heading: "Cancelled",
     data: "50",
-    marginBot: "false",
+    marginBot: false,
   },
 ];
 
